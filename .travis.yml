@@ -7,7 +7,7 @@ before_install:
 script: 
   - jdk_switcher use oraclejdk8
   - ./build_processing.sh
-  - ./build.sh
+  - ./build_hello_world.sh
 
 after_failure:
   - find .
