@@ -1,8 +1,19 @@
 language: cpp
 compiler: gcc
 
+before_install:
+  - java -version
+
 before_script: 
   - ./build_processing.sh
 
 script: 
   - ./build.sh
+
+after_failure:
+  - find .
+  - java -version
+
+after_success:
+  - find .
+  - java -version
