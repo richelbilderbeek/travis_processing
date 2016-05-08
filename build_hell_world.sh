@@ -1,8 +1,6 @@
 #!/bin/bash
-#myexe="$HOME/Programs/processing-3.0.1/processing-java"
-myexe="$HOME/processing/build/linux/work/processing-java
-
-input_folder="hello_world"
+myexe="$HOME/Programs/processing-3.0.1/processing-java"
+input_folder="hell_world"
 output_folder=$input_folder"_output"
 
 if [ ! -e $myexe ]
@@ -33,10 +31,10 @@ $myexe --sketch=$input_folder --output=$output_folder --build > /dev/null
 
 if [ -e $output_folder/$input_folder.class ]
 then
-  # echo "Success"
+  echo "Build unexpectly successfull, line "$LINENO
   rm -rf $output_folder
-  exit 0
-else
-  echo "Build failed, line "$LINENO
   exit 1
+else
+  # echo "Build failed correctly"
+  exit 0
 fi

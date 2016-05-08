@@ -8,6 +8,7 @@ script:
   - jdk_switcher use oraclejdk8
   - ./build_processing.sh
   - ./build_hello_world.sh
+  - ./build_hell_world.sh
 
 after_failure:
   - find .
