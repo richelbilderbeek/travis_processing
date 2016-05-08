@@ -6,3 +6,7 @@
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_processing.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_processing)
 
 Minimal Processing project that is tested by Travis CI.
+
+Goals:
+  * `hello_world` should be verified to compile by Travis
+  * `hell_world` should be verified *not* to compile by Travis
