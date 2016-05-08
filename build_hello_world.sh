@@ -1,7 +1,8 @@
 #!/bin/bash
 #myexe="$HOME/Programs/processing-3.0.1/processing-java"
 #myexe="$HOME/processing/build/linux/work/processing-java"
-myexe=./processing/build/linux/work/processing-java
+#myexe=./processing/build/linux/work/processing-java
+myexe="./processing-3.0.2/processing-java"
 
 input_folder="hello_world"
 output_folder=$input_folder"_output"
