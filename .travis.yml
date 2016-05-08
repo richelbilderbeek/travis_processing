@@ -1,12 +1,12 @@
 language: java
+install: ant deps
 
 before_install:
   - java -version
 
-before_script: 
-  - ./build_processing.sh
-
 script: 
+  - jdk_switcher use oraclejdk8
+  - ./build_processing.sh
   - ./build.sh
 
 after_failure:
