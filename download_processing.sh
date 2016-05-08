@@ -7,4 +7,4 @@ then
   wget http://download.processing.org/$zipfile
 fi 
 
-tar zxvf $zipfile
+tar zxvf $zipfile > /dev/null
