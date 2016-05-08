@@ -1,5 +1,6 @@
 #!/bin/bash
-myexe="$HOME/Programs/processing-3.0.1/processing-java"
+#myexe="$HOME/Programs/processing-3.0.1/processing-java"
+myexe="$HOME/processing/build/linux/work/processing-java"
 input_folder="hell_world"
 output_folder=$input_folder"_output"
 
