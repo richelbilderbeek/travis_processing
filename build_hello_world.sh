@@ -1,5 +1,5 @@
 #!/bin/bash
-myexe="/home/richel/Programs/processing-3.0.1/processing-java"
+myexe="$HOME/Programs/processing-3.0.1/processing-java"
 input_folder="hello_world"
 output_folder=$input_folder"_output"
 
@@ -27,13 +27,14 @@ then
   exit 1
 fi
 
-$myexe --sketch=$input_folder --output=hello_world_output --build
+$myexe --sketch=$input_folder --output=$output_folder --build > /dev/null
 
 if [ -e hello_world_output/hello_world.class ]
 then
-  echo "Success"
+  # echo "Success"
+  rm -rf $output_folder
   exit 0
 else
-  echo "Fail"
+  echo "Build failed, line "$LINENO
   exit 1
 fi
