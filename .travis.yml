@@ -1,0 +1,8 @@
+language: cpp
+compiler: gcc
+
+before_script: 
+  - ./build_processing.sh
+
+script: 
+  - ./build.sh
