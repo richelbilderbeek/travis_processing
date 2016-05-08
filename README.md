@@ -12,3 +12,10 @@ Its goals:
   * `hell_world` should be verified *not* to compile by Travis
 
 Both goals are achieved.
+
+## Other Processing project that are tested by Travis CI
+
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/Pron.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Pron)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/Prong.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Prong)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/ProtonTank.svg?branch=master)](https://travis-ci.org/richelbilderbeek/ProtonTank)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/ProPokeVolley.svg?branch=master)](https://travis-ci.org/richelbilderbeek/ProPokeVolley)
