@@ -15,6 +15,8 @@ Both goals are achieved.
 
 ## Other Processing project that are tested by Travis CI
 
+Note that these projects have a cleaner build script, `build.sh`, that is identical for all projects.
+
  * [![Build Status](https://travis-ci.org/richelbilderbeek/LonelierPong.svg?branch=master)](https://travis-ci.org/richelbilderbeek/LonelierPong) [LonelierPong](https://github.com/richelbilderbeek/LonelierPong)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/Pron.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Pron) [Pron](https://github.com/richelbilderbeek/Pron)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/Prong.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Prong) [Prong](https://github.com/richelbilderbeek/Prong)
