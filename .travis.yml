@@ -11,9 +11,9 @@ script:
   - ./build_hell_world.sh
 
 after_failure:
+  - find . | egrep "processing-java"
   - find .
-  - java -version
 
 after_success:
+  - find . | egrep "processing-java"
   - find .
-  - java -version
