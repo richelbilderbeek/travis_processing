@@ -10,8 +10,10 @@ Proof of concept how to let a Processing project be tested by Travis CI.
 Its goals:
   * `hello_world` should be verified to compile by Travis
   * `hell_world` should be verified *not* to compile by Travis
+  * `multitab_hello_world`should be verified to compile by Travis
+  * `multitab_hell_world`should be verified *not* to compile by Travis
 
-Both goals are achieved.
+First two goals are achieved.
 
 ## Other Processing project that are tested by Travis CI
 
