@@ -4,12 +4,13 @@ language: java
 before_install:
   - java -version
 
-script: 
+script:
   - jdk_switcher use oraclejdk8
   # - ./build_processing.sh
   - ./download_processing.sh
   - ./build_hello_world.sh
   - ./build_hell_world.sh
+  - ./build_multitab_hello_world.sh
 
 after_failure:
   - find . | egrep "processing-java"
