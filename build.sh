@@ -9,7 +9,7 @@ then
   exit 1
 fi
 
-if [ ! -e $input_folder ]
+if [ ! -e ../$input_folder ]
 then
   echo "Input folder '"$input_folder"' not found, line "$LINENO
   exit 1
