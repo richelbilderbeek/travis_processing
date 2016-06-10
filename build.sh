@@ -1,7 +1,6 @@
 #!/bin/bash
 myexe="./processing-3.1.1/processing-java"
-
-input_folder="hell_world"
+input_folder=${PWD##*/}
 output_folder=$input_folder"_output"
 
 if [ ! -e $myexe ]
@@ -30,12 +29,12 @@ fi
 
 $myexe --sketch=$input_folder --output=$output_folder --build > /dev/null
 
-if [ -e $output_folder/$input_folder.class ]
+if [ -e $output_folder/$sketch_name.class ]
 then
-  echo "Build unexpectly successfull, line "$LINENO
+  # echo "Success"
   rm -rf $output_folder
-  exit 1
-else
-  # echo "Build failed correctly"
   exit 0
+else
+  echo "Build failed, line "$LINENO
+  exit 1
 fi

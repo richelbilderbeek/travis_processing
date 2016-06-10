@@ -1,5 +1,5 @@
 #!/bin/bash
-myexe="./processing-3.0.2/processing-java"
+myexe="./processing-3.1.1/processing-java"
 input_folder="multitab_hell_world"
 output_folder=$input_folder"_output"
 
