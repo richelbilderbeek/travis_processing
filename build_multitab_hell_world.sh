@@ -33,8 +33,8 @@ if [ -e $output_folder/$input_folder.class ]
 then
   # echo "Success"
   rm -rf $output_folder
-  exit 0
+  exit 1
 else
   echo "Build failed, line "$LINENO
-  exit 1
+  exit 0
 fi
